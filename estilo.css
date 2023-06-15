@@ -1,0 +1,449 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;500&display=swap');
+
+*{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    margin:2px;
+    padding: 0px;
+    
+    }
+    
+    
+     ul#navegação{
+        background: linear-gradient(to bottom, #d715c4, #a31d9a, #bc72a8);
+        font-family: Andale Mono, monospace;
+        font-size: 15px;
+        padding: 2px;
+        margin: 0px;
+        border: 1px solid rgb(217, 16, 197);
+        width: 99%;
+        float: left;
+        position: relative;
+         top: 0;
+     }
+        ul#navegação li{
+            display: inline;
+            float: left;
+            
+    
+        }
+    
+        ul#navegação a{
+            display: block;
+            padding: 10px;
+            line-height:2 em;
+            text-decoration: none;
+            color: aliceblue;
+        }
+    
+        ul#navegação #pesquisa {
+            position: relative;
+            margin-left: 80%;
+            padding: 10px;
+            position:relative;
+            border-radius: 3px solid purple;
+            width: 50px;
+            
+        }
+    
+        .search-bar {
+            display: flex;
+            justify-content:right;
+            align-items: center;
+            height: 10px;
+            padding: 10px;
+        }
+        
+        .search-input {
+            padding: 2px;
+            font-size: 15px;
+            border: none;
+            border-radius: 4px;
+            
+        }
+        
+        .search-button {
+            padding: 8px 16px;
+            background-color: #ac589f;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 15px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        
+        .search-button:hover {
+            background-color: #45a049;
+        }
+        
+        
+        body{
+            background-color: #c073bd;
+        }
+    
+        .search-bar {
+            display: flex;
+            justify-content:right;
+            align-items: center;
+            height: 10px;
+            padding: 15px;
+        }
+        
+        .search-input {
+            padding: 2px;
+            border: none;
+            border-radius: 4px;
+        }
+        
+        .search-button {
+            background-color: #ac589f;
+            border: none;
+            position: relative;
+            border-radius: 10px;
+            margin-top: 6px;
+            margin-left: 20px;
+            margin-right: 20px;
+            cursor: pointer;
+            width: 50px;
+            height: 40px;
+            text-align: center;
+        }
+        
+        .loupe-white{
+            position: relative;
+            left: -27px;
+            top:-10px;
+            display:flex;
+            position: center;
+
+        }
+        .search-button:hover {
+            background-color: #ae09a0;
+        }
+        
+        .fa-search {
+            color: white;
+        }
+        
+    
+        ul#navegação img{
+            width: 50px;
+            border-radius: 4px;
+            padding-top: 10px;
+            padding-right: 15px;
+            padding-left: 10px;
+        }
+
+        /*-----------------------------------conteiner's---------------------------------------------------*/
+
+        .box1 {
+            margin-top: 25px;
+            position: relative;
+            float: left;
+            top: 11%;
+            left: 15px;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(253, 206, 231);
+            width: 10%;
+            height: 400px;
+            padding: 50px;
+            border-radius: 8px;
+        }
+        
+        .box1 .img {
+            border-radius: 8px;
+            border: solid 5px rgb(204, 86, 215);
+            padding: 1px;
+            overflow: hidden;
+            position: absolute;
+            margin-bottom: 10px;
+            top: 17px;
+            left: 7px;
+        }
+        
+        .elementos {
+            top: 200px;
+            position: relative;
+            margin-bottom: 7px;
+            margin-top: 9px;
+        }
+        
+        .menu {
+            position: relative;
+            top:200px;
+            font-size: 10px;
+            left: -42px;
+            float: left;
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            padding: 5px;
+            
+            margin-bottom: 0px;
+            width: 200px;
+            height: auto;
+           
+
+        }
+        
+        .menu li {
+            margin-bottom: 15px;
+            
+        }
+        
+        .box1 a {
+           
+            text-decoration: none;
+            padding: 6px;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+            background-color: #df30ce;
+            border-radius: 10px;
+            border: solid 2px rgb(255, 255, 255);
+            width: 100px;;
+        }
+        
+        .box1 a:hover{
+            box-shadow: 2px 2px 2px 2px #ffb6fb;
+        
+        }
+    
+        .conteiner-center{
+            margin-top: 70px;
+            display: inline-flex;
+            flex-direction: column;
+            height: 70%;
+            width: 40%;
+            position: absolute;
+            left: 50%;
+            transform: translate(-75%);
+            
+            font-size: 10px;
+        }
+
+        .titulo-box2{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 35px;
+            color:#313131;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .container > div {
+            margin-bottom: 10px;
+            margin-left: 10px;
+          }
+
+        .div1{
+            position: relative;
+            font-size: small;
+            border-radius: 8px;
+            background-color: rgb(253, 206, 231);
+            
+            color:rgb(43, 43, 43);
+            
+        }
+    
+        .div1 li{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            color: #313131;
+        }
+
+        .elementos_box2{
+            margin:10px;
+        }
+
+        .div2{
+            position: relative;
+            margin:2px;
+            padding: 2px;
+            background-color: white;
+            float:inline-end;
+            border-radius: 8px;
+        }
+
+        .titulo-depoimentos{
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid grey;
+            font-size: 20px;
+            color:#0c0c0c;
+        }
+        .depoimentos_usuario{
+            position: relative;
+            width: 48px; 
+            height: 50px; 
+            border-radius: 70%; 
+            margin-left: 25px;;
+            overflow: hidden;
+        }
+
+        .depoimentos_usuario img{
+            position: absolute;
+            top: 0;
+            left: 10;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .pessoa p {
+            position: absolute;
+            top: 45px;
+            left: 62px;
+            width: 100px;
+            color: rgb(37, 37, 37);
+            padding: 5px;
+            text-align: center;
+          }
+
+        .postagem{
+            margin-top:10px;
+            margin-left: 24px;
+            text-align: center;
+            width: 90%;
+            height: auto;
+            background-color: rgb(228, 198, 214);
+        }
+
+        /*---------------------------------------------------------------------------------------------------*/
+
+            
+        #caixa_amigos{
+            position: relative;
+            float:right;
+            background-color: rgb(253, 206, 231);;
+            padding: 15px;
+            padding-inline-end: 10px;
+            margin-top: 0px;
+            box-shadow: 0px 0px 4px rgba(92, 0, 100, 0.568);
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        
+        #linha_perfis{
+            display: flex;
+            padding: 5px;
+            border-bottom: 1px solid rgb(202, 213, 228);
+            height: 165px;
+            margin-left: 20px;
+        }
+        .amigos{
+            text-align: center;
+            font-size: 10px;
+            padding: 6px;
+            margin:4px;
+            right: 8px;
+            background-color: rgb(255, 242, 249);
+        }
+
+        .amigos img{
+            display: block; /* Define a imagem como bloco */
+            margin: 0 auto;
+        }
+
+        .amigos p{
+            text-align: center;
+        }
+        
+        #titulo_amigos{
+        
+            font-size: 22px;
+            margin-top: -8px;
+            margin-bottom: 2px;
+        
+        }
+        
+        .nomes_amigos{
+            position: relative;
+            color:#723f67;
+            top:1px;
+            margin-bottom: 0px;
+            align-items: center;
+        }
+        
+        #ver_todos_link{
+            position: relative;
+            top:-10px;
+            left: 8px;
+            font-size: 16px;
+            text-decoration: underline;
+            color:rgb(0, 0, 109);
+        
+        }
+        
+        
+        #caixa_comunidades{
+            position: relative;
+            float:right;
+            background-color: rgb(253, 206, 231);;
+            padding: 15px;
+            padding-inline-end: 10px;
+            margin-top: 0px;
+            box-shadow: 0px 0px 4px rgba(92, 0, 100, 0.568);
+            border-radius: 10px;
+    
+        }
+        
+        #linha_comunidades{
+            display: flex;
+            padding: 5px;
+            border-bottom: 1px solid rgb(202, 213, 228);
+            height: 165px;
+        }
+        
+        .comunidades{
+            text-align: center;
+            font-size: 10px;
+            padding: 6px;
+            margin:4px;
+            right: 8px;
+            background-color: rgb(255, 242, 249);
+        }
+        
+        .comunidades img{
+            display: block; /* Define a imagem como bloco */
+            margin: 0 auto;
+        }
+
+        .comunidades p{
+            text-align: center;
+        }
+        #titulo_comunidades{
+        
+            font-size: 22px;
+            margin-top: -8px;
+            margin-bottom: 0px;
+        
+        }
+        
+        .nomes_comunidades{
+            position: relative;
+            color:#723f67;
+            top:1px;
+            margin-bottom: 0px;
+            align-items: center;
+        }
+        
+        #ver_todos_link{
+            position: relative;
+            top:-10px;
+            left: 8px;
+            font-size: 16px;
+            text-decoration: underline;
+            color:rgb(105, 0, 109);
+        
+        }
+
+        .conteiner_direita{
+            margin-top:18px;
+            float: right;
+            display: inline-flex;
+            flex-direction: column;
+        }
